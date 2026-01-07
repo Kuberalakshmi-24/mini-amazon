@@ -1,0 +1,63 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131921; /* Amazon dark blue */
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Logo Styling */
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  display: flex;
+  flex: 1; /* Idhu search bar ah max width edukka sollum */
+  margin: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  background-color: #febd69; /* Amazon yellow button */
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Links Styling */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  background-color: #f08804;
+  padding: 0 6px;
+  border-radius: 50%;
+  margin-left: 5px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
